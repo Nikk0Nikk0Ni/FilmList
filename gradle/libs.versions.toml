@@ -1,0 +1,44 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+glide = "4.16.0"
+room = "2.6.1"
+retrofit = "2.9.0"
+rxJava = "3.1.8"
+picasso = "2.71828"
+rxAndroid = "3.0.2"
+
+
+[libraries]
+room-ktx = {group = "androidx.room", name = "room-ktx", version.ref = "room"}
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso"}
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glideCompiler = {group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide"}
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+gsonConv = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+rxRetroAdapter = { group = "com.squareup.retrofit2", name = "adapter-rxjava3", version.ref = "retrofit" }
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+rxJava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJava" }
+rxAndroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroid" }
+rxRoom = { group = "androidx.room", name = "room-rxjava3", version.ref = "room" }
+roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "room"}
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin"}
